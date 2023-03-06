@@ -7,6 +7,14 @@
 
 }
 
+.fontl {
+    font-size: 1.5rem;
+}
+
+.fontxl {
+    font-size: 3rem;
+}
+
 .v-center {
     align-items: center;
 
@@ -138,6 +146,11 @@
     color: rgb(0,132,253);
 }
 
+.txt-viola {
+ color:  rgb(151,146,228);
+
+}
+
 .bckground-blu {
     background-color: rgb(0,132,253);
 }
@@ -155,6 +168,24 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
+}
+
+.bigcircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.postion-foto {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+        
+}
+
+.mr-auto {
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px){
@@ -203,6 +234,11 @@
        
     .flex-future {
         display: flex;
+    }
+
+    .future-column
+    {
+        flex-direction: column;
     }
 
     .none {
