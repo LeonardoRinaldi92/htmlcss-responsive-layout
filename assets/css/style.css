@@ -89,7 +89,7 @@
 }
 
 .width-30 {
-    width: 40%;
+    width: 50%;
 }
 
 .width-img1{
@@ -115,12 +115,20 @@
 .mr-top {
     margin-top: 80px;
 }
+.mr-top20px{
+    margin-top: 20px;
+}
 
 .mr-top20 {
     margin-top: 2em;
 }
+
+.mr-bot20px {
+margin-bottom: 20px;
+}
+
 .padd-40 {
-    padding: 30px 0px;
+    padding: 60px 0px;
 }
 
 .padd-10 {
@@ -134,11 +142,13 @@
     width: 80%;
 }
 
+.width-40 {
+    width: 40%;
+}
+
 .txt-centre{
     text-align: center;
 }
-
-
 
 .txt-standard {
     text-align: start;
@@ -162,6 +172,15 @@
 .txt-viola {
  color:  rgb(151,146,228);
 
+}
+
+.txt-orange {
+color: rgb(253,193,95);
+}
+
+.fontxxl  {
+    font-size: 6rem;
+    line-height: 100%;
 }
 
 .bckground-blu {
@@ -288,7 +307,9 @@
         font-size: 1.2rem;
     }
 
-   
+   #free h2 {
+    font-size: 4rem;
+   }
         
 }
 
