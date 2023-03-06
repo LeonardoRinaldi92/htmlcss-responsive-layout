@@ -212,6 +212,20 @@
     #barre{
         display: none;
     }
+
+    .sx-viola {
+        width:60% ;
+
+    }
+    .dx-viola {
+        padding: 3%;
+        width: 30%;
+        border-radius: 40px;
+    }
+
+    #strategic {
+        margin-top: 100px;
+    }
 }
 
 
