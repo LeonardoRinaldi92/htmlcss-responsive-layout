@@ -103,6 +103,10 @@
     gap: 20px;
 }
 
+.gap20 {
+    gap: 40px;
+}
+
 .mr-top {
     margin-top: 80px;
 }
@@ -192,6 +196,8 @@
     margin: 0 auto;
 }
 
+
+
 @media only screen and (min-width: 768px){
 
 
@@ -224,7 +230,6 @@
  
     .flex-future2 {
             display: flex;
-            padding: 5% 2%;
             justify-content: space-between;
         }
 
@@ -234,9 +239,18 @@
 
     .bigcircle {
         height: 200px;
-         width: 200px;
+         width: 200px;}
 
+    .smallcard {
+        width: calc(100% / 2 - 20px);
+        padding: 5%;
+    }
+    
+    .padd-viola {
+       padding: 5% 2%;
+    }
 
+        
 }
 
 
@@ -288,6 +302,15 @@
     #strategic {
         font-size: 3rem;
         margin-top: 100px;
+    }
+
+    .smallcard {
+        width: calc(100% / 3 - 10px);
+        margin-top: 15px;
+    }
+
+    .width-60 {
+        width: 80%;
     }
 
 }
