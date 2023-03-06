@@ -65,6 +65,14 @@
     text-align: center;
 }
 
+.width-100 {
+    width: 100%;
+}
+
+.padd-nobt {
+    padding-bottom: 0;
+    }
+
 .gap10 {
     gap: 20px;
 }
@@ -81,11 +89,6 @@
 .padd-10 {
     padding: 20px 0px;
 }
-
-.padd-nobt {
-padding-bottom: 0;
-}
-
 
 .h-40 {
     height: 40px;
@@ -113,12 +116,53 @@ padding-bottom: 0;
     color: rgb(0,132,253);
 }
 
-
 .bckground-blu {
     background-color: rgb(0,132,253);
 }
 
+@media only screen and (min-width: 768px){
+ 
+
+    .card-sky {
+        padding: 3%;
+        width: calc(100% / 3 - 20px);
+    }
+
+    #card-lunga{
+        width:calc(100% / 1.5 - 20px);
+        padding-bottom: 0;
+    }
+
+    .width-100 {
+        width: 50%;
+    }
+
+    .width-80 {
+        width: 60%;
+    }
+
+
+}
+    
+    
+
+
+
 @media screen and (min-width:992px) {
+    .container{
+        width:60%;
+    }
+   
+    #lato-sx {
+    width: 70%;
+   }
+
+   .width-100 {
+    align-self: end;}
+       
+    .flex-future {
+        display: flex;
+    }
 
     .none {
         display: flex;
