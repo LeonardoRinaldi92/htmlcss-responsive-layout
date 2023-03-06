@@ -46,6 +46,7 @@
 
 .p-fixed {
     position: fixed;
+    z-index: 999;
     top: 0;
     right: 0;
     width: 100%;
@@ -85,6 +86,10 @@
 
 .width-60 {
     width: 60%;
+}
+
+.width-30 {
+    width: 40%;
 }
 
 .width-img1{
@@ -196,6 +201,20 @@
     margin: 0 auto;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute-top {
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+}
+.dx-viola2 p {
+    font-size: 1.5rem;
+}
+
 
 
 @media only screen and (min-width: 768px){
@@ -250,6 +269,26 @@
        padding: 5% 2%;
     }
 
+    .sx-about-us {
+        width: 65%;
+    }
+
+    .dx-about-us {
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    .width-30 {
+        width: 100%;
+        font-size: .7rem;
+    }
+
+
+    .dx-about-us h2 {
+        font-size: 1.2rem;
+    }
+
+   
         
 }
 
@@ -312,6 +351,8 @@
     .width-60 {
         width: 80%;
     }
+
+   
 
 }
 
