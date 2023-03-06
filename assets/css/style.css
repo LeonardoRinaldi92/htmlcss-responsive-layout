@@ -64,8 +64,22 @@
     padding: 10% ;
     text-align: center;
 }
+.card-white {
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 75px;
+    padding: 10%;
+}
 
 .width-100 {
+    width: 100%;
+}
+
+.width-img1{
+    width: 100%;
+}
+
+.width-img2 {
     width: 100%;
 }
 
@@ -78,13 +92,15 @@
 }
 
 .mr-top {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .mr-top20 {
     margin-top: 2em;
 }
-
+.padd-40 {
+    padding: 30px 0px;
+}
 
 .padd-10 {
     padding: 20px 0px;
@@ -96,6 +112,12 @@
 .width-80 {
     width: 80%;
 }
+
+.txt-centre{
+    text-align: center;
+}
+
+
 
 .txt-standard {
     text-align: start;
@@ -120,6 +142,21 @@
     background-color: rgb(0,132,253);
 }
 
+.bckground-viola {
+    background-color: rgb(151,146,228);
+}
+
+.bckground-white {
+    background-color: white;
+}
+
+.circle {
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
 @media only screen and (min-width: 768px){
  
 
@@ -133,7 +170,7 @@
         padding-bottom: 0;
     }
 
-    .width-100 {
+    .width-img1 {
         width: 50%;
     }
 
@@ -141,7 +178,11 @@
         width: 60%;
     }
 
+    .width-after {
+        width:100% 
+    }
 
+   
 }
     
     
@@ -157,7 +198,7 @@
     width: 70%;
    }
 
-   .width-100 {
+   .width-img1 {
     align-self: end;}
        
     .flex-future {
