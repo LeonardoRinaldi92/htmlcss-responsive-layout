@@ -8,7 +8,7 @@
 }
 
 .fontl {
-    font-size: 1.5rem;
+    
 }
 
 .fontxl {
@@ -171,8 +171,8 @@
 }
 
 .bigcircle {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -189,7 +189,7 @@
 }
 
 @media only screen and (min-width: 768px){
- 
+
 
     .card-sky {
         padding: 3%;
@@ -213,10 +213,27 @@
         width:100% 
     }
 
-   
+    #strategic {
+        font-size: 5rem;}
+
+    
+ 
+    .flex-future2 {
+            display: flex;
+            padding: 5% 2%;
+            justify-content: space-between;
+        }
+
+    .dx-viola2 {
+            width: 70%;
+        }
+
+    .bigcircle {
+        height: 200px;
+         width: 200px;
+
+
 }
-    
-    
 
 
 
@@ -228,10 +245,7 @@
     #lato-sx {
     width: 70%;
    }
-
-   .width-img1 {
-    align-self: end;}
-       
+  
     .flex-future {
         display: flex;
     }
@@ -251,17 +265,27 @@
 
     .sx-viola {
         width:60% ;
-
     }
+
+    .dx-viola2 {
+        width: 70%;
+    }
+
     .dx-viola {
-        padding: 3%;
-        width: 30%;
+        width: 35%;
         border-radius: 40px;
+        padding: 3%;
+    }
+
+    .align-end {
+        align-items: end;
     }
 
     #strategic {
+        font-size: 3rem;
         margin-top: 100px;
     }
+
 }
 
 
