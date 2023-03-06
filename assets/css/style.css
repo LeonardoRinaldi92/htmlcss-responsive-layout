@@ -20,6 +20,10 @@
     display: block;
 }
 
+.in-block {
+    display: inline-block;
+}
+
 .flex {
     display: flex;
 }
@@ -47,8 +51,6 @@
 
 }
 
-
-
 .container {
     width: 90%;
     margin: 0 auto;
@@ -59,7 +61,12 @@
     background-color: rgb(181,221,255);
     border-radius: 20px;
     color: rgb(90,110,127);
-    padding:0 10% ;
+    padding: 10% ;
+    text-align: center;
+}
+
+.gap10 {
+    gap: 20px;
 }
 
 .mr-top {
@@ -86,6 +93,10 @@ padding-bottom: 0;
 .width-80 {
     width: 80%;
 }
+
+.txt-standard {
+    text-align: start;
+}
 .txt-none {
     text-decoration: none;
 }
@@ -98,6 +109,9 @@ padding-bottom: 0;
     color: black;
 }
 
+.txt-blu {
+    color: rgb(0,132,253);
+}
 
 
 .bckground-blu {
@@ -110,7 +124,7 @@ padding-bottom: 0;
         display: flex;
     }
     
-    .block {
+    #barre{
         display: none;
     }
 }
