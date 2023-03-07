@@ -284,10 +284,8 @@ color: rgb(253,193,95);
     }
 
     .dx-viola2 {
-        width: 80%;
+        width: 70%;
     } 
-    
-   
 
     .bigcircle {
         height: 200px;
@@ -371,9 +369,9 @@ color: rgb(253,193,95);
         width:60% ;
     }
 
-    /* .dx-viola2 {
-        width: 70%;
-    } */
+    .dx-viola2 {
+        width: 80%;
+    }
 
     .dx-viola {
         width: 35%;
