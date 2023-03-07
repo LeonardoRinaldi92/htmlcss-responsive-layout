@@ -1,16 +1,25 @@
+/* resettini */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tilt Neon', cursive;
     line-height: 150%;
-
 }
 
 html {
     scroll-behavior: smooth;
   }
 
+/* position varie */
+
+.p-fixed {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
 
 .fontxl {
     font-size: 2.5rem;
@@ -45,13 +54,7 @@ html {
     justify-content: space-between;
 }
 
-.p-fixed {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    right: 0;
-    width: 100%;
-}
+
 
 .long-button {
     text-align: center;
@@ -264,9 +267,7 @@ color: rgb(253,193,95);
         padding-bottom: 0;
     }
 
-    .width-img1 {
-        width: 50%;
-    }
+ 
 
     .width-80 {
         width: 60%;
@@ -336,11 +337,19 @@ color: rgb(253,193,95);
     }
    
     #lato-sx {
-    width: 70%;
+    width: 60%;
    }
-  
+
+   .lato-dx {
+    width: 40%;
+   }
+
     .flex-future {
         display: flex;
+    }
+
+    .width-img1 {
+width: 50%;
     }
 
     .future-column
