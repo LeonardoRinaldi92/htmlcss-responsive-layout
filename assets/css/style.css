@@ -256,7 +256,6 @@ color: rgb(253,193,95);
 
 @media only screen and (min-width: 768px){
 
-
     .card-sky {
         padding: 3%;
         width: calc(100% / 3 - 20px);
@@ -267,8 +266,6 @@ color: rgb(253,193,95);
         padding-bottom: 0;
     }
 
- 
-
     .width-80 {
         width: 60%;
     }
@@ -278,22 +275,22 @@ color: rgb(253,193,95);
     }
 
     #strategic {
-        font-size: 5rem;}
+        font-size: 5rem;
+    }
 
-    
- 
     .flex-future2 {
-            display: flex;
-            justify-content: space-between;
-        }
+        display: flex;
+        justify-content: space-between;
+    }
 
     .dx-viola2 {
-            width: 70%;
-        }
+        width: 70%;
+    }
 
     .bigcircle {
         height: 200px;
-         width: 200px;}
+        width: 200px;
+    }
 
     .smallcard {
         width: calc(100% / 2 - 20px);
@@ -324,7 +321,7 @@ color: rgb(253,193,95);
     }
 
    #free h2 {
-    font-size: 4rem;
+        font-size: 4rem;
    }
         
 }
@@ -349,11 +346,10 @@ color: rgb(253,193,95);
     }
 
     .width-img1 {
-width: 50%;
+    width: 50%;
     }
 
-    .future-column
-    {
+    .future-column {
         flex-direction: column;
     }
 
@@ -361,7 +357,7 @@ width: 50%;
         display: flex;
     }
     
-    #barre{
+    #barre {
         display: none;
     }
 
@@ -396,8 +392,6 @@ width: 50%;
     .width-60 {
         width: 80%;
     }
-
-   
 
 }
 
