@@ -250,6 +250,7 @@ color: rgb(253,193,95);
 }
 .dx-viola2 p {
     font-size: 1.5rem;
+    text-align: left;
 }
 
 
@@ -281,6 +282,10 @@ color: rgb(253,193,95);
     .flex-future2 {
         display: flex;
         justify-content: space-between;
+    }
+
+    .sx-viola2 {
+        width: 20%;
     }
 
     .dx-viola2 {
