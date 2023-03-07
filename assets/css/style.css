@@ -310,6 +310,10 @@ color: rgb(253,193,95);
         font-size: 1rem;
     }
 
+    .width-100{
+        width: 80%;
+    }
+
     .width-30 {
         width: 100%;
         font-size: .7rem;
