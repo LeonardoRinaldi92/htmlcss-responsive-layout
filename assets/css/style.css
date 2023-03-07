@@ -245,7 +245,7 @@ color: rgb(253,193,95);
 .p-absolute-top {
     position: absolute;
     top: 30px;
-    right: 0;
+    right: -20px;
 
 }
 .dx-viola2 p {
