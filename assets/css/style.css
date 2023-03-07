@@ -12,7 +12,7 @@
 }
 
 .fontxl {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .v-center {
@@ -70,7 +70,7 @@
     background-color: rgb(181,221,255);
     border-radius: 20px;
     color: rgb(90,110,127);
-    padding: 10% ;
+    padding: 5% ;
     text-align: center;
 }
 .card-white {
@@ -193,6 +193,10 @@ color: rgb(253,193,95);
 
 .bckground-white {
     background-color: white;
+}
+
+.bckground-darkgrey {
+    background-color: rgb(25, 25, 25);
 }
 
 .circle {
